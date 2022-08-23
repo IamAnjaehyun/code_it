@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script>
+  //함수버전 
+  // let celsiusTemps = [27, 25, 26, 22, 28, 27, 21];
+  // let fahrenheitTemps = [];
+
+  // // 여기에 코드를 작성해 주세요.
+  // let change = function(c,fah){
+  //   let f = 0
+  //   for(let i=0;i<c.length;i++){
+  //     f = (c[i] * 9 / 5) +32;
+  //     fah[i] = f
+  //   }
+  // }
+  // change(celsiusTemps,fahrenheitTemps);
+  // fahrenheitTemps 테스트
+  // console.log(fahrenheitTemps);
+
+  //함수 없는 버전
+  let celsiusTemps = [27, 25, 26, 22, 28, 27, 21];
+  let fahrenheitTemps = [];
+
+  console.log(`'C 온도 ${celsiusTemps}`)
+  for (let i = 0; i < celsiusTemps.length; i++) {
+    fahrenheitTemps[i] = (celsiusTemps[i] * 9 / 5) + 32
+  }
+
+  // fahrenheitTemps 테스트
+  console.log(`'F 온도 ${fahrenheitTemps}`);
+</script>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .logo{
+    width: 165px;
+    height: 58px;
+    margin-top: 80px;
+  }
+  .menu a{
+    font-family: 'Helvetica';
+    color: #58595B;
+    text-decoration: none;
+  }
+  .menu{
+    margin-right: 20px;
+    margin-top:60px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .mainpic img{
+    width: 90%;
+  }

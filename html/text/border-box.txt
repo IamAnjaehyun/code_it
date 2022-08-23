@@ -1,0 +1,6 @@
+*{box-sizing: border-box;} => 초기에 정한 width, height 값이 최대값으로 padding과 border이 초기 사이즈 기준으로 설정된다.
+
+
+이미지 속성에 
+vertical-align:____;
+쓰면 양쪽에 글씨 위치를 top bottom middle 로 조정가능
